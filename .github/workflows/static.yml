@@ -36,7 +36,6 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          "homepage": "https://<NaiduBM>.github.io/<job-portal->"
           path: 'https://github.com/NaiduBM/job-portal-'
       - name: Deploy to GitHub Pages
         id: deployment
